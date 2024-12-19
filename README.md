@@ -23,11 +23,18 @@ Run the Colab notebook's API cell to generate a temporary ngrok URL for live tes
 ## Technology Stack
 
 - Google Colab (Cloud Runtime)
+- CUDA
 - Python 3.10
 - Flask (REST API)
 - ngrok (Tunneling)
-- librosa (Audio Analysis)
-- torchaudio (Audio Processing)
+- Firebase (Storage)
+
+- Audio Analysis and Processing:
+  - PyTorch
+  - Torchaudio
+  - Librosa
+  - PyDub
+  - FFMpeg
 
 ## Setup & Dependencies
 
@@ -36,16 +43,20 @@ All dependencies are automatically installed when running the Colab notebook.
 Required packages:
 
 ```
+python
 flask
+flask-cors
 pyngrok
-librosa
+firebase-admin
+torch
 torchaudio
+librosa
 pydub
 ```
 
 ## API Usage
 
-POST request to `/process-audio` with a WAV file in the request body.
+POST request to `/process` with a WAV file in the request body.
 Returns a processed WAV file.
 
 ## Development

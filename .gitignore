@@ -1,4 +1,7 @@
 /notebooks
 /notebooks/*
 
+/SECRET
+/SECRET/*
+
 report.md

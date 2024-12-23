@@ -4,5 +4,8 @@
 /SECRET
 /SECRET/*
 
+/test_client_prepper
+/test_client_prepper/*
+
 report.md
 README-CHECK_BEFORE_NEXT_PUSH.md

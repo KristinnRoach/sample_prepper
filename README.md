@@ -7,8 +7,10 @@ Cloud-based audio processing API for automating audio sample preparation (normal
 ## Quick Start
 
 1. Open the [Colab Notebook](https://colab.research.google.com/drive/1nOUHvvURPSNuj8DrHq0ECVAD395Q90ub?usp=sharing)
-2. Run all cells
-3. Test using the [Client App](https://test-client-ashen.vercel.app/)
+2. Click "Run all cells"
+3. Visit the [Test Client](https://test-client-ashen.vercel.app/)
+4. Upload or record audio, process it, and A/B test the results!
+
 
 #### Repos:
 

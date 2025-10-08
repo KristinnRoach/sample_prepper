@@ -4,14 +4,9 @@
 
 Cloud-based audio processing API for automating audio sample preparation (normalization, silence trimming, and pitch correction) for use in audio applications.
 
-## Quick Start
+[Dev Repo for testing](https://github.com/KristinnRoach/test-client)
 
-Upload or record audio, process it, and A/B test the results!
-[Live Demo GUI](https://sample-prepper-test-ui.vercel.app/)
-[client gh-repo](https://github.com/KristinnRoach/test-client)
-
-API as colab notebook: 
-[Colab Notebook](https://colab.research.google.com/drive/1nOUHvvURPSNuj8DrHq0ECVAD395Q90ub?usp=sharing)
+[API as Colab Notebook](https://colab.research.google.com/drive/1nOUHvvURPSNuj8DrHq0ECVAD395Q90ub?usp=sharing)
 
 ## Architecture
 
